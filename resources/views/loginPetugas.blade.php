@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/design.css">
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
-    <title>pengaduan masyarakat</title>
+    <title>Halaman Petugas</title>
 </head>
 <body>
     <div class="container">
@@ -28,7 +28,7 @@
                     <input type="submit" class="btn" name="submit" value="Login" style="background: rgba(6, 116, 12, 0.671);" required>
                 </div>
                 <div class="links">
-                    <center>Don't have account? <a href="/register">Sign Up</a></center>
+                    <center>Don't have account? <a href="registerPetugas">Sign Up</a></center>
                 </div>
             </form>
         </div>

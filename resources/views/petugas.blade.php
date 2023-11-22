@@ -9,7 +9,7 @@
 </head>
 <body>
 
-@extends("layout.app")
+@extends("layout.appPetugas")
 @section('content')
 
 <div class="container">

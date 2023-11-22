@@ -10,7 +10,7 @@
     
 </head>
 <body>
-    @include("layout.navbar")
+    @include("layout.navbarPetugas")
 
     <div class="container">
         @yield('content')

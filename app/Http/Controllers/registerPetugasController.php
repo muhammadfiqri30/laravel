@@ -7,27 +7,26 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 
-class registerController extends Controller
+class registerPetugasController extends Controller
 {
-    function register_masyarakat(){
-        return view('register');
+    function register(){
+        return view('registerPetugas');
     }
+    function proses_tambah_petugas(Request $request) {
 
-    function proses_tambah_masyarakat(Request $request){
-        $nik = $request->nik;
-        $nama = $request->nama;
+        $nama_petugas = $request->nama_petugas;
         $username = $request->username;
         $password = $request->password;
         $telp = $request->telp;
+        $level = $request->level;
     
-        DB::table('masyarakat')->insert([
-            'nik' => $nik,
-            'nama' => $nama,
+        DB::table('petugas')->insert([
+            'nama_petugas' => $nama_petugas,
             'username' => $username,
             'password' => Hash::make($password),
             'telp' => $telp,
+            'level' => "petugas"
         ]);
-        return redirect('/login');
+        return redirect('/loginPetugas');
     }
 }
-

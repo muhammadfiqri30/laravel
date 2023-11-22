@@ -15,41 +15,6 @@
             <form action="" method="post">
                 @csrf
                 <div class="field input">
-                    <label for="nik">NIK</label>
-                    <input type="text" name="nik" id="nik" required>
-                </div>
-                <div class="field input">
-                    <label for="nama">Nama</label>
-                    <input type="text" name="nama" id="nama" required>
-                </div>
-                <div class="field input">
-                    <label for="username">Username</label>
-                    <input type="text" name="username" id="username" required>
-                </div>
-                <div class="field input">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password" required>
-                </div>
-                <div class="field input">
-                    <label for="telp">No.Telpon</label>
-                    <input type="text" name="telp" id="telp" required>
-                </div>
-                <div class="field">
-                    <button type="submit" class="btn" name="submit" style="background: rgba(6, 116, 12, 0.671);" required>register</button>
-                </div>
-                <div class="links">
-                    <center>have account? <a href="login">Sign in</a></center>
-                </div>
-            </form>
-        </div>
-    </div>
-
-    <!-- <div class="container">
-        <div class="box form-box">
-            <header>Register</header>
-            <form action="" method="post">
-                @csrf
-                <div class="field input">
                     <label for="nama">Nama</label>
                     <input type="text" name="nama_petugas" id="nama_petugas" required>
                 </div>
@@ -74,10 +39,10 @@
                     <button type="submit" class="btn" name="submit" style="background: rgba(6, 116, 12, 0.671);" required>register</button>
                 </div>
                 <div class="links">
-                    <center>have account? <a href="login">Sign in</a></center>
+                    <center>have account? <a href="loginPetugas">Sign in</a></center>
                 </div>
             </form>
         </div>
-    </div> -->
+    </div>
 </body>
 </html>
